@@ -18,13 +18,11 @@ function preload()
 
 function setup()
 {
-    createCanvas(displayWidth,displayHeight);
-    //wall1 = createSprite(,window.Height - 300, 200, 300);
-   // wall1.shapeColor = ("red");
-    wall2 = createSprite(displayWidth/2,displayHeight/2,displayWidth,100);
+    createCanvas(400,400);
+    wall2 = createSprite(200,50,400,25);
     wall2.shapeColor = ("red");
     SON = Math.round(random(1,4096));
-    input_dex = createInput("", "password");
+    input_dex = createInput("", "text");
     input_dex.position(10, 110);
     bulba_image = createSprite(100,180,25,25);
     bulba_image.scale = 0.3;
