@@ -18,7 +18,7 @@ function preload()
 
 function setup()
 {
-    createCanvas(400,400);
+    createCanvas(700,700);
     wall2 = createSprite(200,50,400,25);
     wall2.shapeColor = ("red");
     SON = Math.round(random(1,4096));
